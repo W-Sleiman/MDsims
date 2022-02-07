@@ -1,0 +1,32 @@
+1   	:nrun	   :number of runs
+1		:npm	   :number of polymers / chains
+150		:lpm       :length of polymer (# of beads)
+10000000	:steps     :number of simulation steps 
+100    	:step_meas :measurement step
+0.0005	:dt        :integration time step
+1.0		:mass      :monomer mass
+1.00	:T         :temperature
+0.25	:Gamma     :friction coeficient gamma
+131		:seed      :if above is false, specify the initial seed value
+0  		:Morse     :calculate Morse potential? 1/0 = true/false
+1.0		:e_M       :minimum (depth) of Morse potential
+1.0		:alpha     : Morse-constant in the exponent
+1.00   	:r_min     :the minimum of Morse potential is at distance r_min 
+0		:LJ        :calculate LJ potential? 1/0 = true/false 
+1      	:WCA       :1-use nonbonding WCA, 0-use nonbonding LJ
+1.0		:e_LJ      :LJ_epsilon
+1.0		:sigma     :LJ_sigma
+1 		:KG        :calculate KremerGrest potential? true/false
+30.0   	:k_spring  :spring constant
+1.5    	:R0        :maximum bond length in the FENE potential
+0.00	:f_ext     :External Force constant (if applied)
+0.38 	:skin      :skin for Verlet Neighbor List (Range = LJ_rcut + skin)
+P_start	: fin1     : the input file with coordinates of the monomers
+P_end  	: fout1    : the outfile for the monomers
+P_res  	: fout2    : the data file (output data)
+0		:gen_init  :if 1, generate initial conditions;if 0, take from P_start;
+1.7 	:e_b       :boundary_epsilon
+1.0 	:sigma_b   :boundary_sigma
+1		:time_width: half-width of time averaging interval
+0.05	:nrg_ncrmnt: energy increment
+10		:buffer	   : number of monomers skipped near grafted end
