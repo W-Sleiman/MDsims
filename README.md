@@ -1,5 +1,5 @@
 # MDsims
-Molecular dynamics simulation code using velocity-verlet algorithm to simulate end-grafted polymer to an attractive surface.
+Molecular dynamics simulation code using velocity-verlet algorithm to simulate a polymer with one end grafted to an attractive surface.
 
 Code sructure: 
 
