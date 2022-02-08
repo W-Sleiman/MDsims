@@ -6,8 +6,8 @@ Molecular dynamics simulation code using velocity-verlet algorithm to simulate a
 makefile = makefile
 defs.h = definitions/initiation of all global variables
 vv_md.c = main body of code/executable
-measure.c, io.c = for functions and methods
-integrate.c = Langevin Dynamics velocity-Verlet methods
+measure.c, io.c = functions and methods for initialization, measurements, wrap-up,
+integrate.c = Velocity-Verlet methods
 gasdev.c = RNG
 in = input parameters
 
